@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: royalblue;
+        }
+        a:hover{
+            color: red;
+        }
+        a:active{
+            color: green;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: 3px;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .card{
+            width: 300px;
+            border: 1px solid gray;
+            padding: 20px;
+            margin: 10px;
+        }
+        color-change-btn {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .color-change-btn:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: relative;
+            animation: slide 3s infinite;
+        }
+        @keyframes slide {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: 300px;
+            }
+        }
+        .scale-button {
+            width: 150px;
+            height: 50px;
+            background-color: blue;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .scale-button:hover {
+            transform: scale(1.2);
+        }
+        nav {
+            display: flex; 
+            gap: 20px;
+            justify-content: center;
+        }
+        nav a {
+            color: black;
+            font-size: 1.2rem;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <!----1st---->
+    <ul>
+    <li><a href="#">link1</a></li>
+    <li><a herf="#">link2</a></li>
+    <li><a herf="#">link3</a></li>
+    <li><a herf="#">link4</a></li>
+    <li><a herf="#">link5</a></li>
+</ul><br><br>
+
+<!-----2nd----->
+<h1 style="font-family:Arial, Helvetica, sans-serif;">Title for Aerial font</h1>
+<p style="font-size: 1.2rem; line-height:1.6;">The font size is set to 1.2rem and line height is set to 1.6</p>
+<br><br><br>
+
+
+
+<!-----3rd----->
+<div class="card">
+    <p> Create a card with CSS, padding, and margin</p>
+</div><br><br>
+<!------4th-->
+<nav>
+  <a herf="#">Item 1</a>
+  <a herf="#">Item 2</a>
+  <a herf="#">Item 3</a>
+</nav>
+
+<!----6th----->
+<button class="color-change-btn">Hover over me!</button><br><br>
+
+
+<!----8th------->
+<div class="box"></div><br><br>
+
+<!----7th------>
+<button class="scale-button">Hover Me</button><br><br>
+
+<!----4th----->
+<nav>
+  <a herf="#">Item 1</a>
+  <a herf="#">Item 2</a>
+  <a herf="#">Item 3</a>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
